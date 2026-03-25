@@ -1,0 +1,287 @@
+{
+  "seasons": {
+    "2014": {
+      "regular": {
+        "managers": ["Ben", "Josh", "Youssef", "Sathya", "Yida", "Tate", "Sameer", "Will", "Aman", "Casey"],
+        "matrix": {
+          "Ben": { "Josh": "1-0", "Youssef": "1-0", "Sathya": "1-1", "Yida": "1-0", "Tate": "2-0", "Sameer": "1-1", "Will": "0-1", "Aman": "1-1", "Casey": "1-0" },
+          "Josh": { "Ben": "0-1", "Youssef": "0-2", "Sathya": "1-0", "Yida": "2-0", "Tate": "1-0", "Sameer": "1-0", "Will": "1-1", "Aman": "0-1", "Casey": "2-0" },
+          "Youssef": { "Ben": "0-1", "Josh": "2-0", "Sathya": "0-1", "Yida": "0-2", "Tate": "1-0", "Sameer": "1-0", "Will": "2-0", "Aman": "1-0", "Casey": "2-0" },
+          "Sathya": { "Ben": "1-1", "Josh": "0-1", "Youssef": "1-0", "Yida": "1-0", "Tate": "1-1", "Sameer": "0-2", "Will": "1-0", "Aman": "2-0", "Casey": "1-0" },
+          "Yida": { "Ben": "0-1", "Josh": "0-2", "Youssef": "2-0", "Sathya": "0-1", "Tate": "0-1", "Sameer": "1-0", "Will": "1-1", "Aman": "1-0", "Casey": "2-0" },
+          "Tate": { "Ben": "0-2", "Josh": "0-1", "Youssef": "0-1", "Sathya": "1-1", "Yida": "1-0", "Sameer": "1-1", "Will": "1-0", "Aman": "2-0", "Casey": "1-0" },
+          "Sameer": { "Ben": "1-1", "Josh": "0-1", "Youssef": "0-1", "Sathya": "2-0", "Yida": "0-1", "Tate": "1-1", "Will": "1-0", "Aman": "2-0", "Casey": "0-1" },
+          "Will": { "Ben": "1-0", "Josh": "1-1", "Youssef": "0-2", "Sathya": "0-1", "Yida": "1-1", "Tate": "0-1", "Sameer": "0-1", "Aman": "0-1", "Casey": "2-0" },
+          "Aman": { "Ben": "1-1", "Josh": "1-0", "Youssef": "0-1", "Sathya": "0-2", "Yida": "0-1", "Tate": "0-2", "Sameer": "0-2", "Will": "1-0", "Casey": "1-0" },
+          "Casey": { "Ben": "0-1", "Josh": "0-2", "Youssef": "0-2", "Sathya": "0-1", "Yida": "0-2", "Tate": "0-1", "Sameer": "1-0", "Will": "0-2", "Aman": "0-1" }
+        }
+      },
+      "playoffs": {
+        "managers": ["Ben", "Sathya", "Josh", "Youssef"],
+        "matrix": {
+          "Ben": { "Sathya": "1-0", "Josh": "1-0", "Youssef": "0-0" },
+          "Sathya": { "Ben": "0-1", "Josh": "0-0", "Youssef": "0-1" },
+          "Josh": { "Ben": "0-1", "Sathya": "0-0", "Youssef": "1-0" },
+          "Youssef": { "Ben": "0-0", "Sathya": "1-0", "Josh": "0-1" }
+        }
+      }
+    },
+    "2023": {
+      "regular": null,
+      "playoffs": {
+        "managers": ["Swap", "Justin", "Griffin", "Aman", "Abdi", "Ben"],
+        "matrix": {
+          "Swap": { "Justin": "1-0", "Griffin": "1-0", "Aman": "0-0", "Abdi": "0-0", "Ben": "1-0" },
+          "Justin": { "Swap": "0-1", "Griffin": "0-0", "Aman": "1-0", "Abdi": "0-0", "Ben": "0-0" },
+          "Griffin": { "Swap": "0-1", "Justin": "0-0", "Aman": "1-0", "Abdi": "0-0", "Ben": "0-0" },
+          "Aman": { "Swap": "0-0", "Justin": "0-1", "Griffin": "0-1", "Abdi": "1-0", "Ben": "0-0" },
+          "Abdi": { "Swap": "0-0", "Justin": "0-0", "Griffin": "0-0", "Aman": "0-1", "Ben": "0-0" },
+          "Ben": { "Swap": "0-1", "Justin": "0-0", "Griffin": "0-0", "Aman": "0-0", "Abdi": "0-0" }
+        }
+      }
+    },
+    "2022": {
+      "regular": {
+        "managers": ["Abdi", "Dom", "Ben", "Youssef", "Aman", "Justin", "Swap", "Yida", "Tate", "Josh", "Griffin", "Sameer"],
+        "matrix": {
+          "Abdi": { "Dom": "0-1", "Ben": "1-0", "Youssef": "1-1", "Aman": "1-1", "Justin": "1-0", "Swap": "2-0", "Yida": "0-1", "Tate": "1-0", "Josh": "1-0", "Griffin": "1-0", "Sameer": "0-1" },
+          "Dom": { "Abdi": "1-0", "Ben": "1-0", "Youssef": "1-0", "Aman": "0-1", "Justin": "1-0", "Swap": "0-1", "Yida": "1-1", "Tate": "2-0", "Josh": "1-0", "Griffin": "0-2", "Sameer": "1-0" },
+          "Ben": { "Abdi": "0-1", "Dom": "0-1", "Youssef": "1-1", "Aman": "2-0", "Justin": "1-0", "Swap": "1-1", "Yida": "1-0", "Tate": "0-1", "Josh": "1-0", "Griffin": "1-0", "Sameer": "1-0" },
+          "Youssef": { "Abdi": "1-1", "Dom": "0-1", "Ben": "1-1", "Aman": "0-1", "Justin": "1-0", "Swap": "0-1", "Yida": "1-0", "Tate": "0-1", "Josh": "1-0", "Griffin": "1-0", "Sameer": "2-0" },
+          "Aman": { "Abdi": "1-1", "Dom": "1-0", "Ben": "0-2", "Youssef": "1-0", "Justin": "1-0", "Swap": "0-1", "Yida": "1-0", "Tate": "0-1", "Josh": "0-1", "Griffin": "0-1", "Sameer": "2-0" },
+          "Justin": { "Abdi": "0-1", "Dom": "0-1", "Ben": "0-1", "Youssef": "0-1", "Aman": "0-1", "Swap": "0-1", "Yida": "2-0", "Tate": "2-0", "Josh": "0-1", "Griffin": "2-0", "Sameer": "1-0" },
+          "Swap": { "Abdi": "0-2", "Dom": "1-0", "Ben": "1-1", "Youssef": "1-0", "Aman": "1-0", "Justin": "1-0", "Yida": "0-1", "Tate": "1-0", "Josh": "0-1", "Griffin": "0-1", "Sameer": "1-1" },
+          "Yida": { "Abdi": "1-0", "Dom": "1-1", "Ben": "0-1", "Youssef": "0-1", "Aman": "0-1", "Justin": "0-2", "Swap": "1-0", "Tate": "0-1", "Josh": "2-0", "Griffin": "1-0", "Sameer": "1-0" },
+          "Tate": { "Abdi": "0-1", "Dom": "0-2", "Ben": "1-0", "Youssef": "1-0", "Aman": "1-0", "Justin": "0-2", "Swap": "0-1", "Yida": "1-0", "Josh": "0-2", "Griffin": "1-0", "Sameer": "1-0" },
+          "Josh": { "Abdi": "0-1", "Dom": "0-1", "Ben": "0-1", "Youssef": "0-1", "Aman": "1-0", "Justin": "1-0", "Swap": "1-0", "Yida": "0-2", "Tate": "2-0", "Griffin": "1-1", "Sameer": "0-1" },
+          "Griffin": { "Abdi": "0-1", "Dom": "2-0", "Ben": "0-1", "Youssef": "0-1", "Aman": "1-0", "Justin": "0-2", "Swap": "1-0", "Yida": "0-1", "Tate": "0-1", "Josh": "1-1", "Sameer": "0-1" },
+          "Sameer": { "Abdi": "1-0", "Dom": "0-1", "Ben": "0-1", "Youssef": "0-2", "Aman": "0-2", "Justin": "0-1", "Swap": "1-1", "Yida": "0-1", "Tate": "0-1", "Josh": "1-0", "Griffin": "1-0" }
+        }
+      },
+      "playoffs": {
+        "managers": ["Abdi", "Dom", "Ben", "Youssef", "Aman", "Tate"],
+        "matrix": {
+          "Abdi": { "Dom": "0-0", "Ben": "0-1", "Youssef": "0-0", "Aman": "0-1", "Tate": "0-0" },
+          "Dom": { "Abdi": "0-0", "Ben": "1-0", "Youssef": "0-0", "Aman": "1-0", "Tate": "0-0" },
+          "Ben": { "Abdi": "1-0", "Dom": "0-1", "Youssef": "0-0", "Aman": "0-0", "Tate": "1-0" },
+          "Youssef": { "Abdi": "0-0", "Dom": "0-0", "Ben": "0-0", "Aman": "0-1", "Tate": "0-0" },
+          "Aman": { "Abdi": "1-0", "Dom": "0-1", "Ben": "0-0", "Youssef": "1-0", "Tate": "0-0" },
+          "Tate": { "Abdi": "0-0", "Dom": "0-0", "Ben": "0-1", "Youssef": "0-0", "Aman": "0-0" }
+        }
+      }
+    },
+    "2021": {
+      "regular": {
+        "managers": ["Tate", "Ben", "Dom", "Griffin", "Abdi", "Swap", "Justin", "Yida", "Sameer", "Youssef", "Aman", "Josh"],
+        "matrix": {
+          "Tate": { "Ben": "0-1", "Dom": "2-0", "Griffin": "0-1", "Abdi": "0-1", "Swap": "2-0", "Justin": "0-1", "Yida": "1-0", "Sameer": "2-0", "Youssef": "1-0", "Aman": "1-0", "Josh": "1-0" },
+          "Ben": { "Tate": "1-0", "Dom": "0-1", "Griffin": "2-0", "Abdi": "1-1", "Swap": "1-0", "Justin": "1-0", "Yida": "1-1", "Sameer": "0-1", "Youssef": "1-0", "Aman": "1-0", "Josh": "1-0" },
+          "Dom": { "Tate": "0-2", "Ben": "1-0", "Griffin": "1-0", "Abdi": "1-0", "Swap": "1-0", "Justin": "0-1", "Yida": "1-0", "Sameer": "1-0", "Youssef": "2-0", "Aman": "1-1", "Josh": "0-1" },
+          "Griffin": { "Tate": "1-0", "Ben": "0-2", "Dom": "0-1", "Abdi": "0-1", "Swap": "1-0", "Justin": "1-1", "Yida": "0-1", "Sameer": "1-0", "Youssef": "1-0", "Aman": "1-0", "Josh": "2-0" },
+          "Abdi": { "Tate": "1-0", "Ben": "1-1", "Dom": "0-1", "Griffin": "1-0", "Swap": "0-1", "Justin": "0-1", "Yida": "1-0", "Sameer": "0-1", "Youssef": "1-1", "Aman": "2-0", "Josh": "1-0" },
+          "Swap": { "Tate": "0-2", "Ben": "0-1", "Dom": "0-1", "Griffin": "0-1", "Abdi": "1-0", "Justin": "2-0", "Yida": "1-0", "Sameer": "0-1", "Youssef": "0-1", "Aman": "1-0", "Josh": "1-1" },
+          "Justin": { "Tate": "1-0", "Ben": "0-1", "Dom": "1-0", "Griffin": "1-1", "Abdi": "1-0", "Swap": "0-2", "Yida": "0-1", "Sameer": "0-2", "Youssef": "1-0", "Aman": "0-1", "Josh": "1-0" },
+          "Yida": { "Tate": "0-1", "Ben": "1-1", "Dom": "0-1", "Griffin": "1-0", "Abdi": "0-1", "Swap": "0-1", "Justin": "1-0", "Sameer": "1-0", "Youssef": "1-0", "Aman": "2-0", "Josh": "0-2" },
+          "Sameer": { "Tate": "0-2", "Ben": "1-0", "Dom": "0-1", "Griffin": "0-1", "Abdi": "1-0", "Swap": "1-0", "Justin": "2-0", "Yida": "0-1", "Youssef": "1-1", "Aman": "0-1", "Josh": "1-0" },
+          "Youssef": { "Tate": "0-1", "Ben": "0-1", "Dom": "0-2", "Griffin": "0-1", "Abdi": "1-1", "Swap": "1-0", "Justin": "0-1", "Yida": "0-1", "Sameer": "1-1", "Aman": "1-0", "Josh": "1-0" },
+          "Aman": { "Tate": "0-1", "Ben": "0-1", "Dom": "1-1", "Griffin": "0-1", "Abdi": "0-2", "Swap": "0-1", "Justin": "1-0", "Yida": "0-2", "Sameer": "1-0", "Youssef": "0-1", "Josh": "1-0" },
+          "Josh": { "Tate": "0-1", "Ben": "0-1", "Dom": "1-0", "Griffin": "0-2", "Abdi": "0-1", "Swap": "1-1", "Justin": "0-1", "Yida": "2-0", "Sameer": "0-1", "Youssef": "0-1", "Aman": "0-1" }
+        }
+      },
+      "playoffs": {
+        "managers": ["Tate", "Ben", "Dom", "Griffin", "Abdi", "Swap"],
+        "matrix": {
+          "Tate": { "Ben": "0-0", "Dom": "0-0", "Griffin": "0-0", "Abdi": "0-1", "Swap": "1-0" },
+          "Ben": { "Tate": "0-0", "Dom": "0-0", "Griffin": "0-0", "Abdi": "0-1", "Swap": "1-0" },
+          "Dom": { "Tate": "0-1", "Ben": "0-1", "Griffin": "0-0", "Abdi": "0-0", "Swap": "0-1" },
+          "Griffin": { "Tate": "0-0", "Ben": "0-0", "Dom": "0-0", "Abdi": "0-1", "Swap": "0-0" },
+          "Abdi": { "Tate": "1-0", "Ben": "1-0", "Dom": "0-0", "Griffin": "1-0", "Swap": "0-0" },
+          "Swap": { "Tate": "0-1", "Ben": "0-1", "Dom": "1-0", "Griffin": "0-0", "Abdi": "0-0" }
+        }
+      }
+    },
+    "2020": {
+      "regular": {
+        "managers": ["Tate", "Dom", "Swap", "Yida", "Ben", "Abdi", "Justin", "Youssef", "Sameer", "Aman", "Griffin", "Josh"],
+        "matrix": {
+          "Tate": { "Dom": "2-0", "Swap": "1-1", "Yida": "1-0", "Ben": "1-0", "Abdi": "1-0", "Justin": "0-1", "Youssef": "1-0", "Sameer": "0-1", "Aman": "1-0", "Griffin": "1-0", "Josh": "1-0" },
+          "Dom": { "Tate": "0-2", "Swap": "1-0", "Yida": "1-1", "Ben": "0-1", "Abdi": "1-0", "Justin": "0-1", "Youssef": "1-0", "Sameer": "0-1", "Aman": "1-0", "Griffin": "1-0", "Josh": "1-0" },
+          "Swap": { "Tate": "1-1", "Dom": "0-1", "Yida": "1-1", "Ben": "1-0", "Abdi": "1-0", "Justin": "0-1", "Youssef": "0-1", "Sameer": "1-0", "Aman": "1-0", "Griffin": "1-0", "Josh": "1-0" },
+          "Yida": { "Tate": "0-1", "Dom": "1-1", "Swap": "1-1", "Ben": "1-0", "Abdi": "1-0", "Justin": "1-0", "Youssef": "1-0", "Sameer": "1-0", "Aman": "1-0", "Griffin": "1-0", "Josh": "1-0" },
+          "Ben": { "Tate": "0-1", "Dom": "1-0", "Swap": "0-1", "Yida": "0-1", "Abdi": "0-1", "Justin": "0-2", "Youssef": "1-0", "Sameer": "2-0", "Aman": "1-0", "Griffin": "1-0", "Josh": "1-0" },
+          "Abdi": { "Tate": "0-1", "Dom": "0-1", "Swap": "0-1", "Yida": "0-1", "Ben": "1-0", "Justin": "2-0", "Youssef": "1-0", "Sameer": "0-2", "Aman": "0-1", "Griffin": "1-0", "Josh": "1-0" },
+          "Justin": { "Tate": "1-0", "Dom": "1-0", "Swap": "1-0", "Yida": "0-1", "Ben": "2-0", "Abdi": "0-2", "Youssef": "0-1", "Sameer": "1-0", "Aman": "0-1", "Griffin": "1-0", "Josh": "1-0" },
+          "Youssef": { "Tate": "0-1", "Dom": "0-1", "Swap": "1-0", "Yida": "0-1", "Ben": "0-1", "Abdi": "0-1", "Justin": "1-0", "Sameer": "0-1", "Aman": "0-1", "Griffin": "0-2", "Josh": "1-1" },
+          "Sameer": { "Tate": "1-0", "Dom": "1-0", "Swap": "0-1", "Yida": "0-1", "Ben": "0-2", "Abdi": "2-0", "Justin": "0-1", "Youssef": "1-0", "Aman": "0-1", "Griffin": "0-1", "Josh": "1-0" },
+          "Aman": { "Tate": "0-1", "Dom": "0-1", "Swap": "0-1", "Yida": "0-1", "Ben": "0-1", "Abdi": "1-0", "Justin": "1-0", "Youssef": "1-0", "Sameer": "1-0", "Griffin": "0-2", "Josh": "1-1" },
+          "Griffin": { "Tate": "0-1", "Dom": "0-1", "Swap": "0-1", "Yida": "0-1", "Ben": "0-1", "Abdi": "0-1", "Justin": "0-1", "Youssef": "2-0", "Sameer": "1-0", "Aman": "2-0", "Josh": "0-1" },
+          "Josh": { "Tate": "0-1", "Dom": "0-1", "Swap": "0-1", "Yida": "0-1", "Ben": "0-1", "Abdi": "0-1", "Justin": "0-1", "Youssef": "1-1", "Sameer": "0-1", "Aman": "1-1", "Griffin": "1-0" }
+        }
+      },
+      "playoffs": {
+        "managers": ["Tate", "Yida", "Swap", "Dom", "Justin", "Ben"],
+        "matrix": {
+          "Tate": { "Yida": "0-0", "Swap": "0-1", "Dom": "0-0", "Justin": "1-0", "Ben": "0-0" },
+          "Yida": { "Tate": "0-0", "Swap": "0-1", "Dom": "0-0", "Justin": "0-1", "Ben": "0-0" },
+          "Swap": { "Tate": "1-0", "Yida": "1-0", "Dom": "0-0", "Justin": "0-0", "Ben": "1-0" },
+          "Dom": { "Tate": "0-0", "Yida": "0-0", "Swap": "0-0", "Justin": "0-1", "Ben": "0-0" },
+          "Justin": { "Tate": "0-1", "Yida": "1-0", "Swap": "0-0", "Dom": "1-0", "Ben": "0-0" },
+          "Ben": { "Tate": "0-0", "Yida": "0-0", "Swap": "0-1", "Dom": "0-0", "Justin": "0-0" }
+        }
+      }
+    },
+    "2019": {
+      "regular": {
+        "managers": ["Yida", "Ben", "Griffin", "Justin", "Youssef", "Aman", "Swap", "Tate", "Dom", "Sameer", "Josh", "Abdi"],
+        "matrix": {
+          "Yida": { "Ben": "0-1", "Griffin": "1-0", "Justin": "0-1", "Youssef": "1-0", "Aman": "0-1", "Swap": "2-0", "Tate": "1-0", "Dom": "1-0", "Sameer": "1-0", "Josh": "1-0", "Abdi": "2-0" },
+          "Ben": { "Yida": "1-0", "Griffin": "1-0", "Justin": "1-0", "Youssef": "1-0", "Aman": "0-1", "Swap": "0-1", "Tate": "1-0", "Dom": "1-0", "Sameer": "2-0", "Josh": "0-1", "Abdi": "1-1" },
+          "Griffin": { "Yida": "0-1", "Ben": "0-1", "Justin": "0-1", "Youssef": "0-2", "Aman": "1-0", "Swap": "1-0", "Tate": "1-0", "Dom": "1-0", "Sameer": "1-0", "Josh": "2-0", "Abdi": "1-0" },
+          "Justin": { "Yida": "1-0", "Ben": "0-1", "Griffin": "1-0", "Youssef": "1-0", "Aman": "0-1", "Swap": "0-1", "Tate": "2-0", "Dom": "0-1", "Sameer": "0-1", "Josh": "2-0", "Abdi": "1-0" },
+          "Youssef": { "Yida": "0-1", "Ben": "0-1", "Griffin": "2-0", "Justin": "0-1", "Aman": "1-0", "Swap": "1-1", "Tate": "1-0", "Dom": "1-0", "Sameer": "1-0", "Josh": "1-0", "Abdi": "0-1" },
+          "Aman": { "Yida": "1-0", "Ben": "1-0", "Griffin": "0-1", "Justin": "1-0", "Youssef": "0-1", "Swap": "0-1", "Tate": "0-1", "Dom": "1-1", "Sameer": "1-1", "Josh": "1-0", "Abdi": "1-0" },
+          "Swap": { "Yida": "0-2", "Ben": "1-0", "Griffin": "0-1", "Justin": "1-0", "Youssef": "1-1", "Aman": "1-0", "Tate": "0-1", "Dom": "0-1", "Sameer": "0-1", "Josh": "1-0", "Abdi": "1-0" },
+          "Tate": { "Yida": "0-1", "Ben": "0-1", "Griffin": "0-1", "Justin": "0-2", "Youssef": "0-1", "Aman": "1-0", "Swap": "1-0", "Dom": "1-1", "Sameer": "1-0", "Josh": "1-0", "Abdi": "1-0" },
+          "Dom": { "Yida": "0-1", "Ben": "0-1", "Griffin": "0-1", "Justin": "1-0", "Youssef": "0-1", "Aman": "1-1", "Swap": "1-0", "Tate": "1-1", "Sameer": "0-1", "Josh": "0-1", "Abdi": "1-0" },
+          "Sameer": { "Yida": "0-1", "Ben": "0-2", "Griffin": "0-1", "Justin": "1-0", "Youssef": "0-1", "Aman": "1-1", "Swap": "1-0", "Tate": "0-1", "Dom": "1-0", "Josh": "0-1", "Abdi": "0-1" },
+          "Josh": { "Yida": "0-1", "Ben": "1-0", "Griffin": "0-2", "Justin": "0-2", "Youssef": "0-1", "Aman": "0-1", "Swap": "0-1", "Tate": "0-1", "Dom": "1-0", "Sameer": "1-0", "Abdi": "1-0" },
+          "Abdi": { "Yida": "0-2", "Ben": "1-1", "Griffin": "0-1", "Justin": "0-1", "Youssef": "1-0", "Aman": "0-1", "Swap": "0-1", "Tate": "0-1", "Dom": "0-1", "Sameer": "1-0", "Josh": "0-1" }
+        }
+      },
+      "playoffs": {
+        "managers": ["Ben", "Yida", "Griffin", "Youssef", "Aman", "Justin"],
+        "matrix": {
+          "Ben": { "Yida": "1-0", "Griffin": "1-0", "Youssef": "0-0", "Aman": "0-0", "Justin": "0-0" },
+          "Yida": { "Ben": "0-1", "Griffin": "0-0", "Youssef": "1-0", "Aman": "0-0", "Justin": "0-0" },
+          "Griffin": { "Ben": "0-1", "Yida": "0-0", "Youssef": "1-0", "Aman": "1-0", "Justin": "0-0" },
+          "Youssef": { "Ben": "0-0", "Yida": "0-1", "Griffin": "0-1", "Aman": "0-0", "Justin": "1-0" },
+          "Aman": { "Ben": "0-0", "Yida": "0-0", "Griffin": "0-1", "Youssef": "0-0", "Justin": "0-0" },
+          "Justin": { "Ben": "0-0", "Yida": "0-0", "Griffin": "0-0", "Youssef": "0-1", "Aman": "0-0" }
+        }
+      }
+    },
+    "2018": {
+      "regular": {
+        "managers": ["Justin", "Griffin", "Sameer", "Swap", "Tate", "Aman", "Abdi", "Yida", "Dom", "Josh", "Ben", "Youssef"],
+        "matrix": {
+          "Justin": { "Griffin": "1-0", "Sameer": "0-1", "Swap": "0-1", "Tate": "2-0", "Aman": "1-0", "Abdi": "1-0", "Yida": "1-1", "Dom": "1-0", "Josh": "0-1", "Ben": "1-0", "Youssef": "1-0" },
+          "Griffin": { "Justin": "0-1", "Sameer": "1-0", "Swap": "1-0", "Tate": "1-0", "Aman": "0-1", "Abdi": "1-1", "Yida": "0-1", "Dom": "1-0", "Josh": "1-0", "Ben": "2-0", "Youssef": "1-0" },
+          "Sameer": { "Justin": "1-0", "Griffin": "0-1", "Swap": "1-1", "Tate": "0-2", "Aman": "0-1", "Abdi": "1-0", "Yida": "1-0", "Dom": "1-0", "Josh": "1-0", "Ben": "1-0", "Youssef": "1-0" },
+          "Swap": { "Justin": "1-0", "Griffin": "0-1", "Sameer": "1-1", "Tate": "0-1", "Aman": "1-0", "Abdi": "1-0", "Yida": "0-1", "Dom": "1-0", "Josh": "0-1", "Ben": "1-0", "Youssef": "2-0" },
+          "Tate": { "Justin": "0-2", "Griffin": "0-1", "Sameer": "2-0", "Swap": "1-0", "Aman": "1-0", "Abdi": "0-1", "Yida": "1-0", "Dom": "0-1", "Josh": "1-0", "Ben": "0-1", "Youssef": "1-0" },
+          "Aman": { "Justin": "0-1", "Griffin": "1-0", "Sameer": "1-0", "Swap": "0-1", "Tate": "0-1", "Abdi": "1-0", "Yida": "1-0", "Dom": "0-1", "Josh": "1-1", "Ben": "0-1", "Youssef": "2-0" },
+          "Abdi": { "Justin": "0-1", "Griffin": "1-1", "Sameer": "0-1", "Swap": "0-1", "Tate": "1-0", "Aman": "0-1", "Yida": "1-0", "Dom": "0-1", "Josh": "2-0", "Ben": "1-0", "Youssef": "1-0" },
+          "Yida": { "Justin": "1-1", "Griffin": "1-0", "Sameer": "0-1", "Swap": "1-0", "Tate": "0-1", "Aman": "0-1", "Abdi": "0-1", "Dom": "1-1", "Josh": "1-0", "Ben": "1-0", "Youssef": "0-1" },
+          "Dom": { "Justin": "0-1", "Griffin": "0-1", "Sameer": "0-1", "Swap": "0-1", "Tate": "1-0", "Aman": "1-0", "Abdi": "1-0", "Yida": "1-1", "Josh": "1-0", "Ben": "1-1", "Youssef": "0-1" },
+          "Josh": { "Justin": "1-0", "Griffin": "0-1", "Sameer": "0-1", "Swap": "1-0", "Tate": "0-1", "Aman": "1-1", "Abdi": "0-2", "Yida": "0-1", "Dom": "0-1", "Ben": "1-0", "Youssef": "1-0" },
+          "Ben": { "Justin": "0-1", "Griffin": "0-2", "Sameer": "0-1", "Swap": "0-1", "Tate": "1-0", "Aman": "1-0", "Abdi": "0-1", "Yida": "0-1", "Dom": "1-1", "Josh": "0-1", "Youssef": "1-0" },
+          "Youssef": { "Justin": "0-1", "Griffin": "0-1", "Sameer": "0-1", "Swap": "0-2", "Tate": "0-1", "Aman": "0-2", "Abdi": "0-1", "Yida": "1-0", "Dom": "1-0", "Josh": "0-1", "Ben": "0-1" }
+        }
+      },
+      "playoffs": {
+        "managers": ["Justin", "Griffin", "Sameer", "Swap", "Tate", "Aman"],
+        "matrix": {
+          "Justin": { "Griffin": "0-1", "Sameer": "0-0", "Swap": "0-0", "Tate": "0-1", "Aman": "0-0" },
+          "Griffin": { "Justin": "1-0", "Sameer": "0-0", "Swap": "0-0", "Tate": "0-0", "Aman": "0-1" },
+          "Sameer": { "Justin": "0-0", "Griffin": "0-0", "Swap": "0-0", "Tate": "0-1", "Aman": "0-0" },
+          "Swap": { "Justin": "0-0", "Griffin": "0-0", "Sameer": "0-0", "Tate": "0-0", "Aman": "0-1" },
+          "Tate": { "Justin": "1-0", "Griffin": "0-0", "Sameer": "1-0", "Swap": "0-0", "Aman": "1-0" },
+          "Aman": { "Justin": "0-0", "Griffin": "1-0", "Sameer": "0-0", "Swap": "1-0", "Tate": "0-1" }
+        }
+      }
+    },
+    "2017": {
+      "regular": {
+        "managers": ["Tate", "Sameer", "Sathya", "Yida", "Dom", "Youssef", "Josh", "Ben", "Monique", "Justin", "Abdi", "Griffin", "Aman"],
+        "matrix": {
+          "Tate": { "Sameer": "1-0", "Sathya": "1-0", "Yida": "0-1", "Dom": "1-0", "Youssef": "0-1", "Josh": "0-1", "Ben": "1-0", "Monique": "1-0", "Justin": "1-0", "Abdi": "1-0", "Griffin": "0-1", "Aman": "1-0" },
+          "Sameer": { "Tate": "0-1", "Sathya": "0-1", "Yida": "1-0", "Dom": "0-1", "Youssef": "1-0", "Josh": "1-0", "Ben": "1-0", "Monique": "0-1", "Justin": "1-0", "Abdi": "1-0", "Griffin": "1-0", "Aman": "1-0" },
+          "Sathya": { "Tate": "0-1", "Sameer": "1-0", "Yida": "1-0", "Dom": "1-0", "Youssef": "0-1", "Josh": "0-1", "Ben": "1-0", "Monique": "0-1", "Justin": "0-1", "Abdi": "1-0", "Griffin": "1-0", "Aman": "1-0" },
+          "Yida": { "Tate": "1-0", "Sameer": "0-1", "Sathya": "0-1", "Dom": "1-0", "Youssef": "1-0", "Josh": "1-0", "Ben": "0-1", "Monique": "0-1", "Justin": "0-1", "Abdi": "1-0", "Griffin": "1-0", "Aman": "1-0" },
+          "Dom": { "Tate": "0-1", "Sameer": "1-0", "Sathya": "0-1", "Yida": "0-1", "Youssef": "1-0", "Josh": "1-0", "Ben": "1-0", "Monique": "0-1", "Justin": "1-0", "Abdi": "1-0", "Griffin": "1-0", "Aman": "0-1" },
+          "Youssef": { "Tate": "1-0", "Sameer": "0-1", "Sathya": "1-0", "Yida": "0-1", "Dom": "0-1", "Josh": "1-0", "Ben": "1-0", "Monique": "0-1", "Justin": "1-0", "Abdi": "0-1", "Griffin": "0-1", "Aman": "1-0" },
+          "Josh": { "Tate": "1-0", "Sameer": "0-1", "Sathya": "1-0", "Yida": "0-1", "Dom": "0-1", "Youssef": "0-1", "Ben": "0-1", "Monique": "1-0", "Justin": "0-1", "Abdi": "1-0", "Griffin": "1-0", "Aman": "1-0" },
+          "Ben": { "Tate": "0-1", "Sameer": "0-1", "Sathya": "0-1", "Yida": "1-0", "Dom": "0-1", "Youssef": "0-1", "Josh": "1-0", "Monique": "1-0", "Justin": "1-0", "Abdi": "0-1", "Griffin": "1-0", "Aman": "1-0" },
+          "Monique": { "Tate": "0-1", "Sameer": "1-0", "Sathya": "1-0", "Yida": "1-0", "Dom": "1-0", "Youssef": "1-0", "Josh": "0-1", "Ben": "0-1", "Justin": "0-1", "Abdi": "0-1", "Griffin": "1-0", "Aman": "0-1" },
+          "Justin": { "Tate": "0-1", "Sameer": "0-1", "Sathya": "1-0", "Yida": "1-0", "Dom": "0-1", "Youssef": "0-1", "Josh": "1-0", "Ben": "0-1", "Monique": "1-0", "Abdi": "0-1", "Griffin": "0-1", "Aman": "1-0" },
+          "Abdi": { "Tate": "0-1", "Sameer": "0-1", "Sathya": "0-1", "Yida": "0-1", "Dom": "0-1", "Youssef": "1-0", "Josh": "0-1", "Ben": "1-0", "Monique": "1-0", "Justin": "1-0", "Griffin": "0-1", "Aman": "1-0" },
+          "Griffin": { "Tate": "1-0", "Sameer": "0-1", "Sathya": "0-1", "Yida": "0-1", "Dom": "0-1", "Youssef": "1-0", "Josh": "0-1", "Ben": "0-1", "Monique": "0-1", "Justin": "1-0", "Abdi": "1-0", "Aman": "0-1" },
+          "Aman": { "Tate": "0-1", "Sameer": "0-1", "Sathya": "0-1", "Yida": "0-1", "Dom": "1-0", "Youssef": "0-1", "Josh": "0-1", "Ben": "0-1", "Monique": "1-0", "Justin": "0-1", "Abdi": "0-1", "Griffin": "1-0" }
+        }
+      },
+      "playoffs": {
+        "managers": ["Tate", "Sameer", "Sathya", "Yida", "Dom", "Youssef"],
+        "matrix": {
+          "Tate": { "Sameer": "0-0", "Sathya": "1-0", "Yida": "1-0", "Dom": "0-0", "Youssef": "0-0" },
+          "Sameer": { "Tate": "0-0", "Sathya": "0-1", "Yida": "1-0", "Dom": "0-0", "Youssef": "0-0" },
+          "Sathya": { "Tate": "0-1", "Sameer": "1-0", "Yida": "0-0", "Dom": "0-0", "Youssef": "1-0" },
+          "Yida": { "Tate": "0-1", "Sameer": "0-1", "Sathya": "0-0", "Dom": "1-0", "Youssef": "0-0" },
+          "Dom": { "Tate": "0-0", "Sameer": "0-0", "Sathya": "0-0", "Yida": "0-1", "Youssef": "0-0" },
+          "Youssef": { "Tate": "0-0", "Sameer": "0-0", "Sathya": "0-1", "Yida": "0-0", "Dom": "0-0" }
+        }
+      }
+    },
+    "2016": {
+      "regular": {
+        "managers": ["Justin", "Aman", "Dom", "James", "Sathya", "Tate", "Ben", "Sameer", "Griffin", "Monique", "Youssef", "Josh", "Yida", "Abdi"],
+        "matrix": {
+          "Justin": { "Aman": "1-0", "Dom": "0-1", "James": "1-0", "Sathya": "1-0", "Tate": "0-1", "Ben": "1-0", "Sameer": "1-0", "Griffin": "1-0", "Monique": "0-1", "Youssef": "0-1", "Josh": "1-0", "Yida": "1-0", "Abdi": "1-0" },
+          "Aman": { "Justin": "0-1", "Dom": "1-0", "James": "0-1", "Sathya": "0-1", "Tate": "0-1", "Ben": "1-0", "Sameer": "1-0", "Griffin": "1-0", "Monique": "1-0", "Youssef": "1-0", "Josh": "1-0", "Yida": "1-0", "Abdi": "1-0" },
+          "Dom": { "Justin": "1-0", "Aman": "0-1", "James": "1-0", "Sathya": "1-0", "Tate": "1-0", "Ben": "1-0", "Sameer": "0-1", "Griffin": "1-0", "Monique": "0-1", "Youssef": "1-0", "Josh": "0-1", "Yida": "1-0", "Abdi": "1-0" },
+          "James": { "Justin": "0-1", "Aman": "1-0", "Dom": "0-1", "Sathya": "1-0", "Tate": "0-1", "Ben": "1-0", "Sameer": "1-0", "Griffin": "1-0", "Monique": "0-1", "Youssef": "1-0", "Josh": "1-0", "Yida": "1-0", "Abdi": "1-0" },
+          "Sathya": { "Justin": "0-1", "Aman": "1-0", "Dom": "0-1", "James": "0-1", "Tate": "0-1", "Ben": "1-0", "Sameer": "1-0", "Griffin": "0-1", "Monique": "1-0", "Youssef": "1-0", "Josh": "1-0", "Yida": "1-0", "Abdi": "1-0" },
+          "Tate": { "Justin": "1-0", "Aman": "1-0", "Dom": "0-1", "James": "1-0", "Sathya": "1-0", "Ben": "0-1", "Sameer": "0-1", "Griffin": "0-1", "Monique": "0-1", "Youssef": "1-0", "Josh": "1-0", "Yida": "1-0", "Abdi": "0-1" },
+          "Ben": { "Justin": "0-1", "Aman": "0-1", "Dom": "0-1", "James": "0-1", "Sathya": "0-1", "Tate": "1-0", "Sameer": "1-0", "Griffin": "0-1", "Monique": "1-0", "Youssef": "0-1", "Josh": "1-0", "Yida": "1-0", "Abdi": "1-0" },
+          "Sameer": { "Justin": "0-1", "Aman": "0-1", "Dom": "1-0", "James": "0-1", "Sathya": "0-1", "Tate": "1-0", "Ben": "0-1", "Griffin": "0-1", "Monique": "1-0", "Youssef": "1-0", "Josh": "1-0", "Yida": "1-0", "Abdi": "0-1" },
+          "Griffin": { "Justin": "0-1", "Aman": "0-1", "Dom": "0-1", "James": "0-1", "Sathya": "1-0", "Tate": "1-0", "Ben": "1-0", "Sameer": "1-0", "Monique": "1-0", "Youssef": "0-1", "Josh": "0-1", "Yida": "0-1", "Abdi": "0-1" },
+          "Monique": { "Justin": "1-0", "Aman": "0-1", "Dom": "1-0", "James": "1-0", "Sathya": "0-1", "Tate": "1-0", "Ben": "0-1", "Sameer": "0-1", "Griffin": "0-1", "Youssef": "0-1", "Josh": "0-1", "Yida": "0-1", "Abdi": "1-0" },
+          "Youssef": { "Justin": "1-0", "Aman": "0-1", "Dom": "0-1", "James": "0-1", "Sathya": "0-1", "Tate": "0-1", "Ben": "1-0", "Sameer": "0-1", "Griffin": "1-0", "Monique": "1-0", "Josh": "0-1", "Yida": "0-1", "Abdi": "1-0" },
+          "Josh": { "Justin": "0-1", "Aman": "0-1", "Dom": "1-0", "James": "0-1", "Sathya": "0-1", "Tate": "0-1", "Ben": "0-1", "Sameer": "0-1", "Griffin": "1-0", "Monique": "1-0", "Youssef": "1-0", "Yida": "0-1", "Abdi": "1-0" },
+          "Yida": { "Justin": "0-1", "Aman": "0-1", "Dom": "0-1", "James": "0-1", "Sathya": "0-1", "Tate": "0-1", "Ben": "0-1", "Sameer": "0-1", "Griffin": "1-0", "Monique": "1-0", "Youssef": "1-0", "Josh": "1-0", "Abdi": "0-1" },
+          "Abdi": { "Justin": "0-1", "Aman": "0-1", "Dom": "0-1", "James": "0-1", "Sathya": "0-1", "Tate": "1-0", "Ben": "0-1", "Sameer": "1-0", "Griffin": "1-0", "Monique": "0-1", "Youssef": "0-1", "Josh": "0-1", "Yida": "1-0" }
+        }
+      },
+      "playoffs": {
+        "managers": ["Aman", "Justin", "Tate", "James", "Sathya", "Dom"],
+        "matrix": {
+          "Aman": { "Justin": "1-0", "Tate": "1-0", "James": "0-0", "Sathya": "0-0", "Dom": "0-0" },
+          "Justin": { "Aman": "0-1", "Tate": "0-0", "James": "1-0", "Sathya": "0-0", "Dom": "0-0" },
+          "Tate": { "Aman": "0-1", "Justin": "0-0", "James": "1-0", "Sathya": "0-0", "Dom": "1-0" },
+          "James": { "Aman": "0-0", "Justin": "0-1", "Tate": "0-1", "Sathya": "1-0", "Dom": "0-0" },
+          "Sathya": { "Aman": "0-0", "Justin": "0-0", "Tate": "0-0", "James": "0-1", "Dom": "0-0" },
+          "Dom": { "Aman": "0-0", "Justin": "0-0", "Tate": "0-1", "James": "0-0", "Sathya": "0-0" }
+        }
+      }
+    },
+    "2015": {
+      "regular": {
+        "managers": ["Ben", "Sameer", "Tate", "Sathya", "Abdi", "Griffin", "Monique", "Yida", "Josh", "Dom", "Aman", "Youssef"],
+        "matrix": {
+          "Ben": { "Sameer": "1-0", "Tate": "1-0", "Sathya": "1-0", "Abdi": "0-2", "Griffin": "2-0", "Monique": "1-0", "Yida": "1-0", "Josh": "1-0", "Dom": "0-1", "Aman": "1-0", "Youssef": "1-0" },
+          "Sameer": { "Ben": "0-1", "Tate": "1-0", "Sathya": "1-0", "Abdi": "1-0", "Griffin": "0-1", "Monique": "0-1", "Yida": "0-1", "Josh": "1-0", "Dom": "1-0", "Aman": "2-0", "Youssef": "2-0" },
+          "Tate": { "Ben": "0-1", "Sameer": "0-1", "Sathya": "1-0", "Abdi": "0-1", "Griffin": "1-0", "Monique": "1-0", "Yida": "2-0", "Josh": "1-1", "Dom": "1-0", "Aman": "1-0", "Youssef": "0-1" },
+          "Sathya": { "Ben": "0-1", "Sameer": "0-1", "Tate": "0-1", "Abdi": "2-0", "Griffin": "1-0", "Monique": "1-0", "Yida": "0-2", "Josh": "1-0", "Dom": "1-0", "Aman": "0-1", "Youssef": "1-0" },
+          "Abdi": { "Ben": "2-0", "Sameer": "0-1", "Tate": "1-0", "Sathya": "0-2", "Griffin": "0-1", "Monique": "1-0", "Yida": "1-0", "Josh": "0-1", "Dom": "0-1", "Aman": "1-0", "Youssef": "1-0" },
+          "Griffin": { "Ben": "0-2", "Sameer": "1-0", "Tate": "0-1", "Sathya": "0-1", "Abdi": "1-0", "Monique": "1-1", "Yida": "1-0", "Josh": "1-0", "Dom": "1-0", "Aman": "0-1", "Youssef": "0-1" },
+          "Monique": { "Ben": "0-1", "Sameer": "1-0", "Tate": "0-1", "Sathya": "0-1", "Abdi": "0-1", "Griffin": "1-1", "Yida": "0-1", "Josh": "1-0", "Dom": "1-0", "Aman": "1-0", "Youssef": "1-1" },
+          "Yida": { "Ben": "0-1", "Sameer": "1-0", "Tate": "0-2", "Sathya": "2-0", "Abdi": "0-1", "Griffin": "0-1", "Monique": "1-0", "Josh": "0-1", "Dom": "0-1", "Aman": "1-0", "Youssef": "1-0" },
+          "Josh": { "Ben": "0-1", "Sameer": "0-1", "Tate": "1-1", "Sathya": "0-1", "Abdi": "1-0", "Griffin": "0-1", "Monique": "0-1", "Yida": "1-0", "Dom": "2-0", "Aman": "1-0", "Youssef": "0-1" },
+          "Dom": { "Ben": "1-0", "Sameer": "0-1", "Tate": "0-1", "Sathya": "0-1", "Abdi": "1-0", "Griffin": "0-1", "Monique": "0-1", "Yida": "1-0", "Josh": "0-2", "Aman": "1-1", "Youssef": "1-0" },
+          "Aman": { "Ben": "0-1", "Sameer": "0-2", "Tate": "0-1", "Sathya": "1-0", "Abdi": "0-1", "Griffin": "1-0", "Monique": "0-1", "Yida": "0-1", "Josh": "0-1", "Dom": "1-1", "Youssef": "1-0" },
+          "Youssef": { "Ben": "0-1", "Sameer": "0-2", "Tate": "1-0", "Sathya": "0-1", "Abdi": "0-1", "Griffin": "1-0", "Monique": "1-1", "Yida": "0-1", "Josh": "1-0", "Dom": "0-1", "Aman": "0-1" }
+        }
+      },
+      "playoffs": {
+        "managers": ["Tate", "Ben", "Sathya", "Sameer", "Griffin", "Abdi"],
+        "matrix": {
+          "Tate": { "Ben": "1-0", "Sathya": "0-0", "Sameer": "1-0", "Griffin": "0-0", "Abdi": "1-0" },
+          "Ben": { "Tate": "0-1", "Sathya": "1-0", "Sameer": "0-0", "Griffin": "0-0", "Abdi": "0-0" },
+          "Sathya": { "Tate": "0-0", "Ben": "0-1", "Sameer": "1-0", "Griffin": "1-0", "Abdi": "0-0" },
+          "Sameer": { "Tate": "0-1", "Ben": "0-0", "Sathya": "0-1", "Griffin": "0-0", "Abdi": "0-0" },
+          "Griffin": { "Tate": "0-0", "Ben": "0-0", "Sathya": "0-1", "Sameer": "0-0", "Abdi": "0-0" },
+          "Abdi": { "Tate": "0-1", "Ben": "0-0", "Sathya": "0-0", "Sameer": "0-0", "Griffin": "0-0" }
+        }
+      }
+    }
+  }
+}
