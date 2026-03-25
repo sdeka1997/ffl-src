@@ -105,23 +105,23 @@ export default function SeasonsPage() {
           <table className="w-full text-sm text-left">
             <thead className="text-xs text-slate-400 uppercase bg-slate-950/50 border-b border-slate-800">
               <tr>
-                <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('playoff_finish')}>
-                  Standing {getSortIcon('playoff_finish')}
+                <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('playoff_finish')}>
+                  <div className="flex items-center">Standing {getSortIcon('playoff_finish')}</div>
                 </th>
-                <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('team')}>
-                  Team Name {getSortIcon('team')}
+                <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('team')}>
+                  <div className="flex items-center">Team Name {getSortIcon('team')}</div>
                 </th>
-                <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('owner')}>
-                  Manager {getSortIcon('owner')}
+                <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('owner')}>
+                  <div className="flex items-center">Manager {getSortIcon('owner')}</div>
                 </th>
-                <th className="px-6 py-4 text-right cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('record')}>
-                  Record {getSortIcon('record')}
+                <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('record')}>
+                  <div className="flex items-center justify-end">Record {getSortIcon('record')}</div>
                 </th>
-                <th className="px-6 py-4 text-right cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('pf')}>
-                  Points For {getSortIcon('pf')}
+                <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('pf')}>
+                  <div className="flex items-center justify-end">Points For {getSortIcon('pf')}</div>
                 </th>
-                <th className="px-6 py-4 text-right cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('pa')}>
-                  Points Against {getSortIcon('pa')}
+                <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('pa')}>
+                  <div className="flex items-center justify-end">Points Against {getSortIcon('pa')}</div>
                 </th>
               </tr>
             </thead>

@@ -58,26 +58,26 @@ export default function CumulativeTable({ initialRecords }: CumulativeTableProps
         <table className="w-full text-sm text-left">
           <thead className="text-xs text-slate-400 uppercase bg-slate-950/50 border-b border-slate-800">
             <tr>
-              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('manager')}>
-                Manager {getSortIcon('manager')}
+              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('manager')}>
+                <div className="flex items-center">Manager {getSortIcon('manager')}</div>
               </th>
-              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('wins')}>
-                Wins {getSortIcon('wins')}
+              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('wins')}>
+                <div className="flex items-center">Wins {getSortIcon('wins')}</div>
               </th>
-              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('losses')}>
-                Losses {getSortIcon('losses')}
+              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('losses')}>
+                <div className="flex items-center">Losses {getSortIcon('losses')}</div>
               </th>
-              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('winPct')}>
-                Win % {getSortIcon('winPct')}
+              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('winPct')}>
+                <div className="flex items-center">Win % {getSortIcon('winPct')}</div>
               </th>
-              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('playoff_record')}>
-                Playoff Record {getSortIcon('playoff_record')}
+              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('playoff_record')}>
+                <div className="flex items-center">Playoff Record {getSortIcon('playoff_record')}</div>
               </th>
-              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('pf_vs_avg')}>
-                PF vs Avg {getSortIcon('pf_vs_avg')}
+              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('pf_vs_avg')}>
+                <div className="flex items-center">PF vs Avg {getSortIcon('pf_vs_avg')}</div>
               </th>
-              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors" onClick={() => handleSort('pa_vs_avg')}>
-                PA vs Avg {getSortIcon('pa_vs_avg')}
+              <th className="px-6 py-4 cursor-pointer group hover:bg-slate-800 transition-colors whitespace-nowrap" onClick={() => handleSort('pa_vs_avg')}>
+                <div className="flex items-center">PA vs Avg {getSortIcon('pa_vs_avg')}</div>
               </th>
             </tr>
           </thead>

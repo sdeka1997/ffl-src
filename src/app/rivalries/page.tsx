@@ -71,7 +71,7 @@ export default function RivalriesPage() {
           <Swords className="w-10 h-10 text-red-500" />
           Rivalry Hub
         </h1>
-        <p className="mt-4 text-slate-400 max-w-2xl text-lg">
+        <p className="mt-4 text-slate-400 text-lg">
           Lifetime series records between any two managers. Find out who really runs the league.
         </p>
       </header>

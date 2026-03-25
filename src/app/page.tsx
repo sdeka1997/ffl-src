@@ -35,8 +35,8 @@ export default function Home() {
         <h1 className="text-4xl font-extrabold tracking-tight sm:text-5xl lg:text-6xl">
           A Decade of <span className="text-emerald-400">Dominance & Disappointment</span>
         </h1>
-        <p className="max-w-2xl mx-auto text-xl text-slate-400">
-          Welcome to the definitive analytics hub for our fantasy football league history (2014-2023).
+        <p className="max-w-2xl mx-auto text-lg sm:text-xl text-slate-400">
+          Welcome to the definitive analytics hub for our fantasy football league history <span className="whitespace-nowrap">(2014-2023)</span>.
         </p>
       </header>
 
